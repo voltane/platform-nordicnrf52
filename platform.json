@@ -16,17 +16,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/platformio/platform-nordicnrf52.git"
+    "url": "https://github.com/voltane/platform-nordicnrf52.git"
   },
   "version": "9.2.0",
   "frameworks": {
     "arduino": {
       "package": "framework-arduinonordicnrf5",
       "script": "builder/frameworks/arduino.py"
-    },
-    "mbed": {
-      "package": "framework-mbed",
-      "script": "builder/frameworks/mbed.py"
     },
     "zephyr": {
       "package": "framework-zephyr",
@@ -43,15 +39,6 @@
         "~1.90201.0"
       ]
     },
-    "framework-mbed": {
-      "type": "framework",
-      "optional": true,
-      "owner": "platformio",
-      "version": "~6.60900.0",
-      "optionalVersions": [
-        "~6.51506.0"
-      ]
-    },
     "framework-arduinoadafruitnrf52": {
       "type": "framework",
       "optional": true,
@@ -62,7 +49,7 @@
       "type": "framework",
       "optional": true,
       "owner": "platformio",
-      "version": "~1.700.0"
+      "version": "https://github.com/Redferne/arduino-nRF5.git"
     },
     "framework-arduino-mbed": {
       "type": "framework",
